@@ -1,6 +1,6 @@
 
 package com.scalesec.vulnado.auth;
-//fortesting
+
 public class Auth {
   public String publicToken1 = "abc";
   public String publicToken2 = "abc";
