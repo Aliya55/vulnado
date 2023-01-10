@@ -20,7 +20,7 @@ public class LinkLister {
     }
     return result;
   }
-
+//fortesting
   public static List<String> getLinksV2(String url) throws BadRequest {
     try {
       URL aUrl= new URL(url);
@@ -28,7 +28,7 @@ public class LinkLister {
       System.out.println(host);
 	  System.out.println("test");
       if (host.startsWith("172.") || host.startsWith("192.168") || host.startsWith("10.")){
-        throw new BadRequest("Use of Private IP");
+        throw new BadRequest("Use of Private IPs");
       } else {
         return getLinks(url);
       }

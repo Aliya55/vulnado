@@ -8,13 +8,13 @@ import java.util.List;
 import java.io.Serializable;
 import java.io.IOException;
 
-
+//fortesting
 @RestController
 @EnableAutoConfiguration
 public class LinksController {
   @RequestMapping(value = "/links", produces = "application/json")
   List<String> links(@RequestParam String url) throws IOException{
-    //Check comment feature
+    //Check comment features please
     return LinkLister.getLinks(url);
   }
   @RequestMapping(value = "/links-v2", produces = "application/json")

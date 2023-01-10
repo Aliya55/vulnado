@@ -2,7 +2,7 @@ package com.scalesec.vulnado;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-
+//fortesting
 public class Cowsay {
   public static String run(String input) {
     ProcessBuilder processBuilder = new ProcessBuilder();
@@ -15,7 +15,7 @@ public class Cowsay {
     try {
       Process process = processBuilder.start();
       BufferedReader reader = new BufferedReader(new InputStreamReader(process.getInputStream()));
-	  System.out.println("test");
+	  System.out.println("testing");
       String line;
       while ((line = reader.readLine()) != null) {
         output.append(line + "\n");
