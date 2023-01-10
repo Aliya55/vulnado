@@ -3,10 +3,10 @@ install:
   coverity:
     version: latest
 project:
-  name: "sig-devsecops/vulnado"
-  branch: "origin/devsecops"
+  name: "sig-vulnado"
+  branch: "master"
   revision:
-    name: "sig-devsecops/vulnado"
+    name: "sig-vulnado"
     date: "2020-10-01T14:25:30Z"
   captureDir: .synopsys/polaris
 capture:
